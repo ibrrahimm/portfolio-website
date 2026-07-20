@@ -1,0 +1,6 @@
+Ibrahim Yehia CV placeholder
+
+Replace this file with the final bilingual CV asset and keep the same filename if you want the existing Download CV button to work without code changes.
+
+Arabic:
+هذا ملف بديل مؤقت للسيرة الذاتية. استبدله بملف السيرة الذاتية النهائي مع الاحتفاظ بنفس الاسم إذا أردت أن يستمر زر تحميل السيرة الذاتية في العمل دون تعديل الكود.

@@ -1,0 +1,27 @@
+{
+  "name": "6a3afb0dfa38f099bf63fd76",
+  "version": "1.0.0",
+  "description": "Bilingual premium portfolio for Ibrahim Yehia built with Next.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
+    "framer-motion": "^12.41.0",
+    "lucide-react": "^1.21.0",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.9"
+  }
+}
