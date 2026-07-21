@@ -776,7 +776,7 @@ export default function PortfolioApp() {
         id="profile"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.25 }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={fadeUp}
       >
         <div className="profile-atmosphere">
@@ -817,7 +817,7 @@ export default function PortfolioApp() {
         id="methodology"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={fadeUp}
       >
         <SectionHeader
@@ -849,7 +849,7 @@ export default function PortfolioApp() {
                     className={`dna-vertical-card premium-hover-card ${index % 2 === 0 ? "left" : "right"} ${activeMethod === index ? "active" : ""}`}
                     initial={{ opacity: 0, x: index % 2 === 0 ? -60 : 60, y: 18 }}
                     whileInView={{ opacity: 1, x: 0, y: 0 }}
-                    viewport={{ once: true, amount: 0.35 }}
+                    viewport={{ once: true, amount: 0.1 }}
                     transition={{ duration: 0.45, delay: index * 0.06 }}
                     onMouseEnter={() => setActiveMethod(index)}
                     onFocus={() => setActiveMethod(index)}
@@ -879,7 +879,7 @@ export default function PortfolioApp() {
         id="industries"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={fadeUp}
       >
         <SectionHeader
@@ -929,7 +929,7 @@ export default function PortfolioApp() {
         id="arsenal"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={fadeUp}
       >
         <SectionHeader
@@ -1012,7 +1012,7 @@ export default function PortfolioApp() {
         id="contact"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={fadeUp}
       >
         <SectionHeader

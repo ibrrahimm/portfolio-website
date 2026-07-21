@@ -648,7 +648,6 @@ html[dir="rtl"] .project-card h3 {
 .stepper-shell {
   position: relative;
   max-width: 100%;
-  overflow: hidden;
 }
 
 .dna-shell {
@@ -1463,17 +1462,35 @@ html[dir="rtl"] .project-card h3 {
     min-height: 1240px;
   }
 
-  .dna-vertical-shell {
-    min-height: 900px;
-  }
-
   .dna-vertical-card {
-    width: min(46%, 300px);
+    width: 100%;
+    margin-bottom: 16px;
   }
 
   .dna-vertical-card.left,
   .dna-vertical-card.right {
     transform: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .dna-vertical-spine {
+    left: 16px;
+  }
+
+  .dna-vertical-spine-secondary {
+    left: 16px;
+  }
+
+  .dna-vertical-card.left .dna-card-dot,
+  .dna-vertical-card.right .dna-card-dot {
+    left: -28px;
+    right: auto;
+  }
+
+  .dna-vertical-shell {
+    padding-left: 32px;
+    min-height: auto;
   }
 
 
